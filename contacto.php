@@ -45,7 +45,7 @@
                 <p>Cuéntanos lo que piensas sobre nuestro servicios.</p>
             </header>
             <div class="box">
-                <form method="post" action="#">
+                <form method="post" action="contactoEnviar.php">
                     <div class="row gtr-50 gtr-uniform">
                         <div class="col-6 col-12-mobilep">
                             <input type="text" name="name" id="name" value="" placeholder="Nombre" />
@@ -71,7 +71,7 @@
                   if(isset($_GET["enviado"]) && $_GET["enviado"] == 'true')
                     {
                      echo '<script>', 'ConfirmarAlmacenamiento();', '</script>';
-					 
+
                     }
                 ?>
             </div>
