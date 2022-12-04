@@ -67,7 +67,7 @@ flush();
 readfile($backup_file_name);
 exec('rm ' . $backup_file_name);
 
-header("Location: http://localhost:3000/clientes.php");
+header("Location: clientes.php");
 
 }
 

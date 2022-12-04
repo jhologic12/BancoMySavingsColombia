@@ -38,7 +38,7 @@ if(isset($_REQUEST['submit'])){
 
 }
 
-header("Location: http://localhost:3000/clientes.php");
+header("Location: clientes.php");
 
 
 /* Realizamos la conexiÃ³n a la base de Datos. */

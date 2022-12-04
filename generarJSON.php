@@ -40,7 +40,7 @@ foreach ($_REQUEST as $campos=>$valores){
 
 file_put_contents($nombreArchivo,json_encode($otracadena));
 
-header("Location: http://localhost:3000/clientes.php");
+header("Location: clientes.php");
 
 }
 
