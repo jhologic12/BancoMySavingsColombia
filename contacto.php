@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <meta http-equiv="Cache-control" content="no-cache">
-	<script src="assets/js/control.js"></script>
+	
 
 </head>
 
@@ -30,7 +30,7 @@
                             <li><a href="buscarClientes.php">Buscar Clientes</a></li>
                             <li><a href="clientes.php">Clientes</a></li>
                             <li><a href="simulador.php">Simulador de Credito</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
+                            <li><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </li>
                     <li><a href="login.php" class="button">Iniciar Sesión</a></li>
@@ -45,7 +45,7 @@
                 <p>Cuéntanos lo que piensas sobre nuestro servicios.</p>
             </header>
             <div class="box">
-                <form method="post" action="contactoEnviar.php">
+                <form   action="contactoEnviar.php" method="post" >
                     <div class="row gtr-50 gtr-uniform">
                         <div class="col-6 col-12-mobilep">
                             <input type="text" name="name" id="name" value="" placeholder="Nombre" />
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-12">
                             <ul class="actions special">
-                                <li><input type="submit" value="Enviar Mensaje" /></li>
+                                <li><input type="submit" name="submit" id="submit" value="Enviar Mensaje" /></li>
                             </ul>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                 <?php
                   if(isset($_GET["enviado"]) && $_GET["enviado"] == 'true')
                     {
-                     echo '<script>', 'ConfirmarAlmacenamiento();', '</script>';
+                     echo '<script>', 'alert("Los Datos fueron enviados exitosamente.");', '</script>';
 
                     }
                 ?>

@@ -23,6 +23,8 @@ if(isset($_REQUEST['submit'])){
        $cadena->bindParam(':mensaje',$txtMensaje);
 
 
+       var_dump($cadena);
+
        $cadena->execute();
     
  

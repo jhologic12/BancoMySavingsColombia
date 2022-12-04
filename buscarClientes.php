@@ -29,7 +29,7 @@ include("conexion/conexion.php");
 									<li><a href="empresa.html">Empresas</a></li>
 									<li><a href="clientes.php">	Clientes</a></li>
 									<li><a href="simulador.php">Simulador de Credito</a></li>
-									<li><a href="contacto.html">Contacto</a></li>
+									<li><a href="contacto.php">Contacto</a></li>
 								</ul>
 							</li>
 							<li><a href="login.php" class="button">Iniciar Sesión</a></li>

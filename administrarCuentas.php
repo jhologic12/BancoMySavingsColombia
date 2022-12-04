@@ -161,10 +161,10 @@ switch ($accion) {
 									<li><a href="empresa.html">Empresas</a></li>
 									<li><a href="buscarClientes.php">Buscar Clientes</a></li>
 									<li><a href="simulador.php">Simulador de Credito</a></li>
-									<li><a href="contacto.html">Contacto</a></li>
+									<li><a href="contacto.php">Contacto</a></li>
 								</ul>
 							</li>
-							<li><a href="#" class="button">Iniciar Sesión</a></li>
+							<li><a href="login.php" class="button">Iniciar Sesión</a></li>
 						</ul>
 					</nav>
 				</header>

@@ -23,7 +23,7 @@
 									<li><a href="persona.html">Personas</a></li>
 									<li><a href="empresa.html">Empresas</a></li>
 									<li><a href="simulador.html">Simulador de Credito</a></li>
-									<li><a href="contacto.html">Contacto</a></li>
+									<li><a href="contacto.php">Contacto</a></li>
 								</ul>
 							</li>
 							<li><a href="#" class="button">Iniciar Sesión</a></li>
